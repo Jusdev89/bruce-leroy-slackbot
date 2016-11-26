@@ -38,4 +38,5 @@ token.js
 #do not commit editor config files
 .idea
 
-.env
+# dont add this
+*.env
