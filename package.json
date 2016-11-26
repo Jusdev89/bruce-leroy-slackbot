@@ -1,0 +1,16 @@
+{
+  "name": "bruceleroy",
+  "version": "1.0.0",
+  "description": "I am Bruce Leroy Sucka",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon bin/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jusdev89",
+  "license": "MIT",
+  "dependencies": {
+    "slackbots": "^0.5.3",
+    "sqlite3": "^3.1.8"
+  }
+}
