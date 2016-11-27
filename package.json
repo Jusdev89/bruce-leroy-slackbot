@@ -2,15 +2,20 @@
   "name": "bruceleroy",
   "version": "1.0.0",
   "description": "I am Bruce Leroy Sucka",
-  "main": "index.js",
+  "main": "bin/bot.js",
   "scripts": {
-    "start": "nodemon bin/bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "migrate": "node data/dbGenerator.js",
+    "start": "nodemon bin/bot.js"
   },
   "author": "jusdev89",
   "license": "MIT",
   "dependencies": {
+    "async": "^2.1.4",
+    "dotenv": "^2.0.0",
+    "progress": "^1.1.8",
+    "request": "^2.79.0",
     "slackbots": "^0.5.3",
     "sqlite3": "^3.1.8"
-  }
+  },
+  "devDependencies": {}
 }
